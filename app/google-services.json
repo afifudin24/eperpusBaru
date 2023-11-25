@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "428596505718",
+    "firebase_url": "https://libraryapp-f7586-default-rtdb.firebaseio.com",
+    "project_id": "libraryapp-f7586",
+    "storage_bucket": "libraryapp-f7586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428596505718:android:6c28d6cb28be4bf3cb8357",
+        "android_client_info": {
+          "package_name": "com.ads.libraryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCTQGL8lEigMzLHwXDxWMDcNHyis-OgMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428596505718:android:764226345c04744ecb8357",
+        "android_client_info": {
+          "package_name": "com.agilsatriaancangpamungkas.storyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCTQGL8lEigMzLHwXDxWMDcNHyis-OgMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
