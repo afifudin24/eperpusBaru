@@ -50,7 +50,7 @@ class RegisterActivity : AppCompatActivity() {
         binding.btnRegister.setOnClickListener {
             val name = binding.registerName.text.toString()
             val email = binding.registerEmail.text.toString()
-            val password = binding.registerPassword.text.toString()
+            val password = binding.edRegisterPassword.text.toString()
             val nohp = binding.edNohpName.text.toString()
             
         }
@@ -70,10 +70,10 @@ class RegisterActivity : AppCompatActivity() {
         val button = ObjectAnimator.ofFloat(binding.btnRegister, View.ALPHA, 1f).setDuration(100)
         val title = ObjectAnimator.ofFloat(binding.registerTitle, View.ALPHA, 1f).setDuration(100)
         val desc = ObjectAnimator.ofFloat(binding.registerMessage, View.ALPHA, 1f).setDuration(100)
-        val txtName = ObjectAnimator.ofFloat(binding.registerNameTxt, View.ALPHA, 1f).setDuration(100)
-        val textInputName = ObjectAnimator.ofFloat(binding.registerName, View.ALPHA, 1f).setDuration(100)
+        val txtName = ObjectAnimator.ofFloat(binding.registerNameText, View.ALPHA, 1f).setDuration(100)
+        val textInputName = ObjectAnimator.ofFloat(binding.nameEdtLayout, View.ALPHA, 1f).setDuration(100)
         val txtEmail = ObjectAnimator.ofFloat(binding.registerEmailTxt, View.ALPHA, 1f).setDuration(100)
-        val textInputEmail = ObjectAnimator.ofFloat(binding.registerEmail, View.ALPHA, 1f).setDuration(100)
+        val textInputEmail = ObjectAnimator.ofFloat(binding.emailEdtLayout, View.ALPHA, 1f).setDuration(100)
         val txtPassword = ObjectAnimator.ofFloat(binding.registerPasswordTxt, View.ALPHA, 1f).setDuration(100)
         val textInputPassword = ObjectAnimator.ofFloat(binding.registerPassword, View.ALPHA, 1f).setDuration(100)
         val textNoHP = ObjectAnimator.ofFloat(binding.nohpTXT3, View.ALPHA, 1f).setDuration(100)

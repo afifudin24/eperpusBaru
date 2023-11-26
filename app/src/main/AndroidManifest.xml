@@ -9,7 +9,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="E-Perpus"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Library"
@@ -25,16 +25,14 @@
             android:exported="false" />
         <activity
             android:name=".view.RegisterActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".view.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".view.WelcomeActivity"
             android:exported="false" />
-        <activity
-            android:name=".view.BerandaActivity"
-            android:exported="false" />
+
         <activity
             android:name=".view.MainActivity"
             android:exported="true">

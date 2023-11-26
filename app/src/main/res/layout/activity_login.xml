@@ -92,7 +92,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/passwordTXT"
+        android:id="@+id/registerPasswordTxt"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:text="@string/password"
@@ -114,7 +114,7 @@
         app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/passwordTXT"
+        app:layout_constraintTop_toBottomOf="@id/registerPasswordTxt"
         app:startIconDrawable="@drawable/baseline_lock_24"
         app:counterEnabled="false"
         app:counterMaxLength="0">

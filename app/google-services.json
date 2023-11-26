@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:428596505718:android:6c28d6cb28be4bf3cb8357",
         "android_client_info": {
-          "package_name": "com.ads.libraryapp"
+          "package_name": "com.myproject.library"
         }
       },
       "oauth_client": [],
@@ -29,7 +29,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:428596505718:android:764226345c04744ecb8357",
         "android_client_info": {
-          "package_name": "com.agilsatriaancangpamungkas.storyapp"
+          "package_name": "com.myproject.library"
         }
       },
       "oauth_client": [],
