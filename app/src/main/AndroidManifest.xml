@@ -15,8 +15,13 @@
         android:theme="@style/Theme.Library"
         tools:targetApi="31">
         <activity
+            android:name=".view.SekolahActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sekolah"
+            android:theme="@style/Theme.Library" />
+        <activity
             android:name=".view.PenggunaActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".view.EditBookActivity"
             android:exported="false"

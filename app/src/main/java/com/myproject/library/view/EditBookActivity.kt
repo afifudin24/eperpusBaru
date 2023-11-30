@@ -163,7 +163,8 @@ class EditBookActivity : AppCompatActivity() {
 //            spinner.setSelection(0)
 //
 //        }
-        fun updateBuku(docId : String, namabuku : String, penulis : String, kategori: String, urlImage: String, urlPdf: String){
+@SuppressLint("SuspiciousIndentation")
+fun updateBuku(docId : String, namabuku : String, penulis : String, kategori: String, urlImage: String, urlPdf: String){
             val db = FirebaseFirestore.getInstance()
             val data = hashMapOf<String, Any>(
                 "judulbuku" to namabuku,

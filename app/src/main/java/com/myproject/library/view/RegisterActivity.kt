@@ -51,7 +51,7 @@ class RegisterActivity : AppCompatActivity() {
             return try {
                 val authResult = firebaseAuth.createUserWithEmailAndPassword(email, password).await()
                 val user = authResult.user
-                val admin = true
+                val admin = false
 
                 // Jika registrasi berhasil, tambahkan data pengguna ke Firestore
                 if (user != null) {
