@@ -47,6 +47,12 @@ class UsersAdapter(private val userList: MutableList<Users>) :
         fun bindView(user:Users){
             currentUser = user
            val nama = itemView.findViewById<TextView>(R.id.namaPengguna)
+            val email = itemView.findViewById<TextView>(R.id.emailPengguna)
+            val nohp = itemView.findViewById<TextView>(R.id.nohpPengguna)
+
+            nama.text = user.name
+            email.text = user.email
+            nohp.text = user.nohp
 
         }
     }

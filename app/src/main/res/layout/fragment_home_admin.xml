@@ -100,9 +100,10 @@
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/keSekolah"
             android:layout_width="150dp"
-            android:layout_margin="12dp"
             android:layout_height="150dp"
+            android:layout_margin="12dp"
             app:cardCornerRadius="15dp"
             app:cardElevation="12dp"
             app:layout_column="0"
@@ -111,7 +112,6 @@
             app:layout_rowWeight="1">
 
             <LinearLayout
-                android:id="@+id/keSekolah"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -138,11 +138,13 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
+            android:id="@+id/kelogout"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:cardCornerRadius="15dp"
             android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
             app:cardElevation="12dp"
             app:layout_column="1"
             app:layout_columnWeight="1"
@@ -150,7 +152,6 @@
             app:layout_rowWeight="1">
 
             <LinearLayout
-                android:id="@+id/keLogout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -214,11 +215,13 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
+            android:id="@+id/kePengguna"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:cardCornerRadius="15dp"
             android:layout_margin="12dp"
+            app:cardCornerRadius="15dp"
             app:cardElevation="12dp"
             app:layout_column="1"
             app:layout_columnWeight="1"
@@ -226,7 +229,6 @@
             app:layout_rowWeight="1">
 
             <LinearLayout
-                android:id="@+id/kePengguna"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"

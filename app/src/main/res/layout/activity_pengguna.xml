@@ -41,11 +41,12 @@
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPengguna"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
-            tools:listitem="@layout/itemusers"
-            android:layout_marginRight="32dp" />
+            android:layout_marginRight="32dp"
+            tools:listitem="@layout/itemusers" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

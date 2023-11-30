@@ -40,7 +40,7 @@ class HomeAdminFragment : Fragment() {
         val keBuku = view.findViewById<CardView>(R.id.keBuku)
         val kePengguna = view.findViewById<CardView>(R.id.kePengguna)
         val keSekolah = view.findViewById<CardView>(R.id.keSekolah)
-        val keLogout = view.findViewById<CardView>(R.id.keLogout)
+        val keLogout = view.findViewById<CardView>(R.id.kelogout)
 
         keBuku.setOnClickListener {
             val intent = Intent(requireContext(), BooksAdmin::class.java)
@@ -50,6 +50,20 @@ class HomeAdminFragment : Fragment() {
         kePengguna.setOnClickListener {
             val intent = Intent(requireContext(), PenggunaActivity::class.java)
             startActivity(intent)
+        }
+        keSekolah.setOnClickListener {
+            val intent = Intent(requireContext(),  SekolahActivity::class.java)
+            startActivity(intent)
+        }
+        keLogout.setOnClickListener {
+            val firebaseAuth = FirebaseAuth.getInstance()
+            firebaseAuth.signOut()
+
+            // Kembali ke halaman login (misalnya LoginActivity)
+            val intent = Intent(requireContext(), LoginActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+            activity?.finish()
         }
 
         fun ambilnama(){

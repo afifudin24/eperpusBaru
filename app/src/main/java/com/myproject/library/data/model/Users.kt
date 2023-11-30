@@ -1,9 +1,9 @@
 package com.myproject.library.data.model
 
 data class Users (
-    val uid: String = "",
-    val name: String = "",
-    val nohp: String = "",
-    val email : String = "",
-    val is_admin: Boolean,
+    var uid: String = "",
+    var name: String = "",
+    var nohp: String = "",
+    var email : String = "",
+    var is_admin: Boolean = false
 )
