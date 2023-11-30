@@ -103,27 +103,28 @@
         app:layout_constraintTop_toBottomOf="@id/layout_email" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
         android:id="@+id/layout_password"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:alpha="0"
-        tools:alpha="100"
+        app:counterEnabled="false"
+        app:counterMaxLength="0"
         app:endIconMode="password_toggle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/registerPasswordTxt"
         app:startIconDrawable="@drawable/baseline_lock_24"
-        app:counterEnabled="false"
-        app:counterMaxLength="0">
+        tools:alpha="100">
 
         <com.myproject.library.customview.passwordEditText
+            android:id="@+id/login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/login_password"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword"
             tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -133,6 +134,7 @@
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="32dp"
         android:alpha="0"
         android:backgroundTint="@color/cyan"

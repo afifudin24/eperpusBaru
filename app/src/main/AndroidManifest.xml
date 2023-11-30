@@ -15,6 +15,23 @@
         android:theme="@style/Theme.Library"
         tools:targetApi="31">
         <activity
+            android:name=".view.PenggunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.EditBookActivity"
+            android:exported="false"
+            android:label="@string/title_activity_edit_book"
+            android:theme="@style/Theme.Library" />
+        <activity
+            android:name=".view.BooksAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".view.AddBookActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.DetailActivity"
             android:exported="false" />
         <activity
@@ -28,11 +45,10 @@
             android:exported="true" />
         <activity
             android:name=".view.LoginActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".view.WelcomeActivity"
             android:exported="false" />
-
         <activity
             android:name=".view.MainActivity"
             android:exported="true">
@@ -42,6 +58,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

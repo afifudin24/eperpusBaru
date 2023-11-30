@@ -81,6 +81,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
     implementation("androidx.gridlayout:gridlayout:1.0.0")
+    implementation("com.google.firebase:firebase-storage-ktx:20.3.0")
     testImplementation("junit:junit:4.13.2")
 
     testImplementation("androidx.arch.core:core-testing:2.1.0")
